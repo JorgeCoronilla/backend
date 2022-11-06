@@ -1,0 +1,16 @@
+#actualizar {
+    /*visibility: hidden;*/
+    background-color: rgb(212, 0, 0);
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top:250px;
+    left:30%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}

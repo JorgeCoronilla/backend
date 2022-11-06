@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "primer_paquete",
+  "main": "ejemplo_rutas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ejemplo_rutas.js"
+  },
+  "author": "Jorge Coronilla",
+  "license": "ISC"
+}

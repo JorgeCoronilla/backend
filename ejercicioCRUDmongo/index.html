@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Node JS Express Form Submission Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CRUD en MongoDB</h1>
+        <form action="/" method="POST">
+            <div class="form-group">
+                <label for="mostrar">Mostrar información de la tabla</label>
+                <input type="text" class="form-control" id="mostrar" aria-describedby="DBcreation"
+                    placeholder="My base de datos" name="mostrar">
+            </div>
+            <div class="form-group">
+                <label for="coleccion1">Insertar Clave</label>
+                <input type="text" class="form-control" id="insertarClave" aria-describedby="DBcreation"
+                    placeholder="insertarClave" name="insertarClave">
+            </div>
+            <div class="form-group">
+                <label for="coleccion1">Insertar Valor</label>
+                <input type="text" class="form-control" id="insertarValor" aria-describedby="DBcreation"
+                    placeholder="insertarValor" name="insertarValor">
+            </div>
+            <div class="form-group">
+                <label for="clave">ActualizarClave</label>
+                <input type="text" class="form-control" id="actualizar" aria-describedby="DBcreation" name="actualizarClave"
+                    placeholder="actualizar">
+            </div>
+            <div class="form-group">
+                <label for="clave">ActualizarValor</label>
+                <input type="text" class="form-control" id="actualizar" aria-describedby="DBcreation" name="actualizarValor"
+                    placeholder="actualizar">
+            </div>
+            <div class="form-group">
+                <label for="valor">borrarClave</label>
+                <input type="text" class="form-control" id="borrarClave" aria-describedby="DBcreation" name="borrarClave"
+                    placeholder="borrarClave">
+            </div>
+            <div class="form-group">
+                <label for="valor">borrarValor</label>
+                <input type="text" class="form-control" id="borrar" aria-describedby="DBcreation" name="borrarValor"
+                    placeholder="borrar">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</body>
+
+</html>
